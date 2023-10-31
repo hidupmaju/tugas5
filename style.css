@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    width: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+}
+
+header{
+    height: 100px;
+    background-color: blue;
+}
+
+footer{
+    background-color: gray;
+}
+
+main{
+    overflow: hidden;
+}
+
+#sidebar, #content{
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    background-color: orange;
+    width: 20%;
+    float: left;
+}
+
+#content{
+    background-color: yellow;
+    width: 80%;
+    float: right;
+}
